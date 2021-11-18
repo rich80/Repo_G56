@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>REGISTRO DE PRODUCTOS</title>
+        <meta charset="utf-8">
+        
+    </head>
+    <body>
+        <h1>REGISTRO DE PRODUCTOS</h1>
+        <form>
+            <h3>PRODUCTO</h3>
+            <label for="categoria">CATEGORIA: </label>
+            <input type="number" name="spinner" id="spinner" min="0" max="20" step="">
+            
+            <h3></h3>
+            <label for="marca">MARCA: </label>
+            <input type="text" name="marca" id="marca" maxlength="50">
+            
+            <h3></h3>
+            <label for="descripcion">DESCRIPCION: </label>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+
+            <h3></h3>
+            <label for="unidad">UNIDADES: </label>
+            <input type="text" name="unidad" id="unidad" maxlength="50">
+
+            <h3>FECHA DE COMPRA</h3>
+            <label for="fecha">FECHA INGRESO</label>
+            <input type="date" name="fecha" id="fecha">
+
+            <h3>COMPROBANTE DE COMPRA</h3>
+            <label for="archivo">FACTURA</label>
+            <input type="file" name="archivo" id="archivo">
+
+            <h3>UNIDADES EXISTENTES</h3>
+            <label for="stock">STOCK: </label>
+            <input type="text" name="stock" id="stock" maxlength="50">
+
+            <h3>VALORES</h3>
+            <label for="valorcompra">PRECIO DE COMPRA: </label>
+            <input type="text" name="valorcompra" id="valorcompra" maxlength="50">
+            
+            <label for="valorventa">PRECIO DE VENTA: </label>
+            <input type="text" name="valorventa" id="valorventa" maxlength="50">
+
+            <h3>PROVEEDOR</h3>
+            <label for="rs">RAZON SOCIAL: </label>
+            <input type="text" name="rs" id="rs" maxlength="50">
+
+            <h3></h3>
+            <label for="tel">TELEFONO: </label>
+            <input type="text" name="rs" id="rs" maxlength="50">
+
+            <h3></h3>
+            <label for="direc">DIRECCION: </label>
+            <input type="text" name="direc" id="direc" maxlength="50">
+
+            
+            <h3></h3>
+            <button name="nuevo" type="button">
+            <svg aria-hidden="true" viewBox="0 0 10 10"><path d=""/></svg>
+                NUEVO
+            </button>
+
+            <button name="grabar" type="button">
+            <svg aria-hidden="true" viewBox="0 0 10 10"><path d=""/></svg>
+                GRABAR
+            </button>
+
+            <button name="editar" type="button">
+            <svg aria-hidden="true" viewBox="0 0 10 10"><path d=""/></svg>
+                EDITAR
+            </button>
+
+            <button name="delet" type="button">
+            <svg aria-hidden="true" viewBox="0 0 10 10"><path d=""/></svg>
+                ELIMINAR
+            </button>
+
+            <button name="salir" type="button">
+            <svg aria-hidden="true" viewBox="0 0 10 10"><path d=""/></svg>
+                SALIR
+            </button>
+         
+        </form>
+    </body>
+</html>
